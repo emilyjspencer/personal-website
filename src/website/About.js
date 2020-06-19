@@ -4,8 +4,25 @@ import './About.css';
 
 const About = () => {
   return (
-    <div>
+    <div className="body">
       About 
+      {''}
+      {''}
+      {''}
+      {''}
+      {''}
+      {''}
+      {''}
+      {''}
+
+
+
+
+
+
+
+
+
     </div>
   )
 }
