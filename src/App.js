@@ -7,7 +7,6 @@ import Main from './website/Main';
 const App = ()  => {
   return (
     <div className="App">
-      <About />
       <NavBar />
       <Main />
     </div>

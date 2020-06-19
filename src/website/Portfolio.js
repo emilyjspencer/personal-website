@@ -3,8 +3,12 @@ import React from 'react';
 const Portfolio = () => {
     return (
         <div>
-            <p>I am the Portfolio component</p>
-            <p>Take a look at some of my work!</p>
+            <br/ >
+            <br />
+            <h1>Take a look at some of my work!</h1>
+            <br />
+            <br />
+            <br/> 
             <p>AceBook</p>
             <p>Find a movie</p>
             <p>Student Register</p>
