@@ -91,6 +91,69 @@ const Cards = () => {
                      <Typography variant="body2">A Mern-stack Application</Typography>
                      </CardContent> 
               </Grid>
+              <Grid item component={Card} xs={12} md={3} className="FindAMovie">
+                 <CardContent>
+                     <Typography color="textSecondary" gutterBottom>Find a Movie</Typography>
+                     <Typography variant="h5">
+                            </Typography>
+                     <Typography color="textSecondary"></Typography>
+                     <Typography variant="body2">An Express/Node application</Typography>
+                     </CardContent> 
+              </Grid>
+              <Grid item component={Card} xs={12} md={3} className="Presents Planner">
+                 <CardContent>
+                     <Typography color="textSecondary" gutterBottom>Presents Planner</Typography>
+                     <Typography variant="h5">
+                            </Typography>
+                     <Typography color="textSecondary"></Typography>
+                     <Typography variant="body2">A React application. Test-driven with Jasmine and Enzyme</Typography>
+                     </CardContent> 
+              </Grid>
+              <Grid item component={Card} xs={12} md={3} className="Bucket List">
+                 <CardContent>
+                     <Typography color="textSecondary" gutterBottom>Bucket List</Typography>
+                     <Typography variant="h5">
+                            </Typography>
+                     <Typography color="textSecondary"></Typography>
+                     <Typography variant="body2">A React application. Test-driven with Jasmine and Enzyme</Typography>
+                     </CardContent> 
+              </Grid>
+              <Grid item component={Card} xs={12} md={3} className="Bookmarks">
+                 <CardContent>
+                     <Typography color="textSecondary" gutterBottom>Bookmarks</Typography>
+                     <Typography variant="h5">
+                            </Typography>
+                     <Typography color="textSecondary"></Typography>
+                     <Typography variant="body2">A Sinatra based application. Built with Ruby, Sinatra and PostgreSQL</Typography>
+                     </CardContent> 
+              </Grid>
+              <Grid item component={Card} xs={12} md={3} className="The Book Lounge">
+                 <CardContent>
+                     <Typography color="textSecondary" gutterBottom>The Book Lounge</Typography>
+                     <Typography variant="h5">
+                            </Typography>
+                     <Typography color="textSecondary"></Typography>
+                     <Typography variant="body2">A Sinatra based application. Built with Ruby, Sinatra and PostgreSQL</Typography>
+                     </CardContent> 
+              </Grid>
+              <Grid item component={Card} xs={12} md={3} className="Bookify">
+                 <CardContent>
+                     <Typography color="textSecondary" gutterBottom>Bookify</Typography>
+                     <Typography variant="h5">
+                            </Typography>
+                     <Typography color="textSecondary"></Typography>
+                     <Typography variant="body2">A Mern-stack Application</Typography>
+                     </CardContent> 
+              </Grid>
+              <Grid item component={Card} xs={12} md={3} className="Potter World">
+                 <CardContent>
+                     <Typography color="textSecondary" gutterBottom>Potter World</Typography>
+                     <Typography variant="h5">
+                            </Typography>
+                     <Typography color="textSecondary"></Typography>
+                     <Typography variant="body2">A React Application</Typography>
+                     </CardContent> 
+              </Grid>
             </Grid>
     )
 }
