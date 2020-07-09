@@ -26,7 +26,7 @@ const Cards = () => {
                   <Typography variant="h5">
                   </Typography>
                   <Typography color="textSecondary"></Typography>
-                  <Typography variant="body2">Number of deaths</Typography>
+                  <Typography variant="body2">A Rails application</Typography>
               </Grid>
               <Grid item component={Card} xs={12} md={3} className="Chitter">
                  <CardContent>
@@ -116,6 +116,7 @@ const Cards = () => {
                             </Typography>
                      <Typography color="textSecondary"></Typography>
                      <Typography variant="body2">A React application. Test-driven with Jasmine and Enzyme</Typography>
+                     <Typography variant="body2">Try it for yourself: <a href="wealthy-cover.surge.sh">Bucket List</a></Typography>
                      </CardContent> 
               </Grid>
               <Grid item component={Card} xs={12} md={3} className="Bookmarks">
@@ -151,7 +152,34 @@ const Cards = () => {
                      <Typography variant="h5">
                             </Typography>
                      <Typography color="textSecondary"></Typography>
-                     <Typography variant="body2">A React Application</Typography>
+                     <Typography variant="body2">A React Application. Uses the Unofficial Harry Potter API</Typography>
+                     </CardContent> 
+              </Grid>
+              <Grid item component={Card} xs={12} md={3} className="Guess the shade">
+                 <CardContent>
+                     <Typography color="textSecondary" gutterBottom>Guess the Shade</Typography>
+                     <Typography variant="h5">
+                            </Typography>
+                     <Typography color="textSecondary"></Typography>
+                     <Typography variant="body2">A game built with vanilla JavaScript</Typography>
+                     </CardContent> 
+              </Grid>
+              <Grid item component={Card} xs={12} md={3} className="Guardian News">
+                 <CardContent>
+                     <Typography color="textSecondary" gutterBottom>Guardian News</Typography>
+                     <Typography variant="h5">
+                            </Typography>
+                     <Typography color="textSecondary"></Typography>
+                     <Typography variant="body2">A React application which calls on the Guardian API</Typography>
+                     </CardContent> 
+              </Grid>
+              <Grid item component={Card} xs={12} md={3} className="Guardian News">
+                 <CardContent>
+                     <Typography color="textSecondary" gutterBottom>Guardian News</Typography>
+                     <Typography variant="h5">
+                            </Typography>
+                     <Typography color="textSecondary"></Typography>
+                     <Typography variant="body2">A single page application which calls on the Guardian API. Build using vanilla JavaScript and no testing library</Typography>
                      </CardContent> 
               </Grid>
             </Grid>
