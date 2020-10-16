@@ -5,10 +5,14 @@ import Homepage from './Homepage';
 import About from './About';
 import Portfolio from './Portfolio';
 import CV from './CV';
+import Information from './Information';
+
 
 
 
 const Main = () => (
+  <div>
+    <Information />
   <BrowserRouter>
   <Switch>
     <Route exact path="/" component={Homepage} />
@@ -17,6 +21,7 @@ const Main = () => (
     <CV exact path="/cv" component={CV} />
   </Switch>
   </BrowserRouter>
+  </div>
 )
 
 export default Main;
