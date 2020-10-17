@@ -841,6 +841,304 @@ export default function RecipeReviewCard() {
         </CardContent>
       </Collapse>
     </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Bucket List"
+        subheader="Visualize your goals with Bucket List"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/bucket_list.png")}
+        title="bucketlist"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+         A React application built using TDD (test-driven development) with Jest and Enzyme
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="http://wealthy-cover.surge.sh/">Bucket List</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Bucket-List-TDD-React">Bucket List on GitHub</a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            React, CSS, Enzyme, Jest
+          </Typography>
+          <Typography paragraph>
+            Motivation: I wanted to practice creating a React application from scratch, using a test-driven approach.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/add_item.png" )}
+        title="bucketlist"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Bookmarks"
+        subheader="Save your favourite/most-used webpages with this bookmark manager"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/homepage.png")}
+        title="bucketlist"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+         A React application built using TDD (test-driven development) with Jest and Enzyme
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="">Bookmarks</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Bookmarks">Bookmarks on GitHub</a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            Ruby, Sinatra, RSpec, Capybara, CSS, PostgreSQL
+          </Typography>
+          <Typography paragraph>
+            Motivation: During week four of the Makers Academy course, we were introducted to databases. We were also tasked with creating a 
+            bookmark manager using a test-driven approach.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/addbookmark.png" )}
+        title="bookmarks"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Find A Movie"
+        subheader="Find all films with a particular word in its title"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/cat4.jpg")}
+        title="findamovie"
+      />
+    <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+         An Express application that lets you search for movies. Calls on the Open Movie Database API.
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="">Find A Movie</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Find-A-Movie">Find A Movie on GitHub</a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            Express, CSS
+          </Typography>
+          <Typography paragraph>
+            Motivation: While I was learning the fundamentals of Express, I wanted to put my knowledge into practice, and,
+            as a huge fans of films, I thought that I would create a film-related application.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/cat4.jpg" )}
+        title="findamovie"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Personal Website"
+        subheader="About Me"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/cat4.jpg")}
+        title="portfolio"
+      />
+    <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+         A React application to showcase my work.
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="">Personal Website</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/personal-website">Personal Website on GitHub</a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            React, MaterialUI, CSS
+          </Typography>
+          <Typography paragraph>
+            Motivation: I wanted a way of showcasing my work in addition to my GitHub profile.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/cat4.jpg" )}
+        title="portfolio"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Vegan Ventures - Coming Soon"
+        subheader="A React application to showcase my sister's amazing vegan dishes"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/cat4.jpg")}
+        title="veganventures"
+      />
+    <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+         A React application to showcase my sister's vegan recipes.
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="">Vegan Ventures</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="">Vegan Ventures on GitHub</a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            React, MaterialUI, CSS
+          </Typography>
+          <Typography paragraph>
+            Motivation: I wanted to create a website to show off my sister's wonderful vegan dishes
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/cat4.jpg" )}
+        title="veganventures"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
   </>
   );
   
