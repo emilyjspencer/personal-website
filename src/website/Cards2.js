@@ -557,7 +557,7 @@ export default function RecipeReviewCard() {
       />
       <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/cat4.png")}
+        image= { require ("./images/cards/cat4.jpg")}
         title="homepage"
       />
       <CardContent>
@@ -591,8 +591,252 @@ export default function RecipeReviewCard() {
           </Typography>
           <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/cat4.png" )}
+        image= { require ("./images/cards/cat4.jpg" )}
         title="cat4"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Times Tables"
+        subheader="Learn your Times Tables with Barbie"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/barbietwelve3.png")}
+        title="seventimestables"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+         A simple React to help you to learn your Times Tables.
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="http://useful-cushion.surge.sh/">Times Tables</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Times-Tables">Times Tables on GitHub</a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            React, CSS, SASS
+          </Typography>
+          <Typography paragraph>
+            Motivation: In the early days of learning React I wanted to cement by understanding of some of React's fundamentals.
+            Having worked in both primary and secondary education, and with a deep interest in education and child development, I decided
+            to create a very simple application for primary school children.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/barbieseven.png" )}
+        title="timestables"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Guardian News"
+        subheader="Read the latest news stories from the Guardian newspaper"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/guardian1.png")}
+        title="seventimestables"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+         A simple React application that calls on the Guardian API and allows users to read the latest news stories.
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="http://sable-notebook.surge.sh/">Guardian News</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Guardian-News-React">Guardian News on GitHub</a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            React, CSS
+          </Typography>
+          <Typography paragraph>
+            Motivation: During week seven of the Makers Academy course, the focus was on vanilla JavaScript. The weekend challenge
+            for that week was to create an SPA (single-page application) using neither a library/framework or nor a testing framework, that
+            called on the Guardian API and returned the latest news stories. I later created the same application using React.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/news.png" )}
+        title="news"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Guess the Shade"
+        subheader="A game created using vanilla JavaScript"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/hard.png")}
+        title="guesstheshade"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+         A game built with Vanilla Javascript.
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="http://profuse-swing.surge.sh/">Guess the Shade</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Guess-the-shade">Guess the Shade on GitHub</a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            Vanilla JavaScript, CSS
+          </Typography>
+          <Typography paragraph>
+            Motivation: I wanted to use some of what I had learned about Vanilla JavaScript to create a simple game.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/medium.png" )}
+        title="guesstheshade"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Presents Planner"
+        subheader="Plan what gifts you want to give your friends and loved ones with Presents Planner"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/presents.png")}
+        title="presents"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+         A React application built using TDD (test-driven development) with Jest and Enzyme
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="http://pale-plastic.surge.sh/">Guess the Shade</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Presents">Presents Planner on GitHub</a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            React, CSS, Enzyme, Jest
+          </Typography>
+          <Typography paragraph>
+            Motivation: I wanted to practice creating a React application from scratch, using a test-driven approach.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/presents_planner.png" )}
+        title="presents"
       />
         </CardContent>
       </Collapse>
