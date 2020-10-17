@@ -16,7 +16,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 605,
+    maxWidth: 805,
   },
   media: {
     height: 0,
@@ -306,7 +306,7 @@ export default function RecipeReviewCard() {
           </IconButton>
         }
         title="Finbot/Ubb"
-        subheader="A chatbot to advise young people on matters of personal finance"
+        subheader="A chatbot to advise young people on matters of personal finance. Created during the last two weeks of the Makers Academy Course"
       />
       <CardMedia
         className={classes.media}
@@ -341,13 +341,258 @@ export default function RecipeReviewCard() {
             Python, Django, React, NLTK, TensorFlow, TFLearn, UnitTest, Cypress
           </Typography>
           <Typography paragraph>
-            Motivation: The idea for Ubb grew out of a conversation that two of my team mates had. One had worked for many years in finance. The others
+            Motivation: The idea for Ubb grew out of a conversation that two of my team mates had. One had worked for many years in finance. The other
             was a (relatively) recent university graduate. 
           </Typography>
           <CardMedia
         className={classes.media}
         image= { require ("./images/cards/ubb2.png")}
         title="ubb2"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="AceBook"
+        subheader="A clone of Facebook (Group project)"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/cat4.jpg")}
+        title="cat4"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+          A clone of Facebook. Built in Rails
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="">AceBook</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/acebook-inSANE">AceBook on GitHub </a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            Rails, Ruby, Capybara, RSpec, CSS
+          </Typography>
+          <Typography paragraph>
+            Motivation: During weeks eight and nine of the Makers Academy course, we were tasked with creating a clone of 
+            Facebook. This was a group project, created over the course of two weeks. 
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/cat4.jpg")}
+        title="cat4"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Chitter"
+        subheader="A clone of Twitter (A weekend challenge)"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/updated_home.png")}
+        title="homepage"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+          A clone of the popular microblogging site - Twitter
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="">Chitter</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/chitter-challenge">Chitter on GitHub </a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            Ruby, Sinatra, RSpec, Capybara, CSS, PostgreSQL
+          </Typography>
+          <Typography paragraph>
+            Motivation: During week four of the Makers Academy course, we were introduced to databases. We were then tasked with creating
+            a simplified version of Twitter over the weekend using the above tech stack
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/messages.png")}
+        title="cat4"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Chitter"
+        subheader="Rock Paper Scissors"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/home.png")}
+        title="homepage"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+          My (extremely girly) take on Rock, Paper, Scissors
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="">Rock, Paper Scissors</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/rps-challenge">Rock, Paper, Scissors on GitHub </a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            Ruby, Sinatra, RSpec, Capybara, CSS
+          </Typography>
+          <Typography paragraph>
+            Motivation: During week three of the Makers Academy course, we were introduced to Sinatra. We were then tasked with creating
+            a game of Rock, Paper, Scissors over the weekend using the above tech stack.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/options.png" )}
+        image={ require ("./images/cards/lose.png")}
+        title="cat4"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Head in the Clouds"
+        subheader="Let's Mediate!"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/cat4.png")}
+        title="homepage"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+         A React application to help you meditate
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="">Head in the Clouds</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Meditate">Head in the Clouds on GitHub</a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            React, CSS
+          </Typography>
+          <Typography paragraph>
+            Motivation: At Makers Academy, we were encouraged to meditate on a daily basis. I recognise how important a role
+            meditation and mindfulness can play in maintaining good mental health, so I wanted to create my own meditation web app.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/cat4.png" )}
+        title="cat4"
       />
         </CardContent>
       </Collapse>

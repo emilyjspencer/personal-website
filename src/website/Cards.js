@@ -71,6 +71,7 @@ const Cards = () => {
                      <Typography color="textSecondary"></Typography>
                      <Typography variant="body2">A React application for those who want to meditate.</Typography>
                      <Typography variant="body2">Try it for yourself: <a href="http://..........surge.sh">Meditate</a></Typography>
+                     <Typography variant="body2">See the code: <a href="https://github.com/emilyjspencer/Meditate"></a></Typography>
                      </CardContent> 
               </Grid>
               <Grid item component={Card} xs={12} md={3} className="Thermostat">
