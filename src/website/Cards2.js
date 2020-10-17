@@ -16,11 +16,11 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 345,
+    maxWidth: 605,
   },
   media: {
     height: 0,
-    paddingTop: '56.25%', // 16:9
+    paddingTop: '56.25%', 
   },
   expand: {
     transform: 'rotate(0deg)',
@@ -46,6 +46,7 @@ export default function RecipeReviewCard() {
   };
 
   return (
+    <>
     <Card className={classes.root}>
       <CardHeader
         avatar={
@@ -104,5 +105,254 @@ export default function RecipeReviewCard() {
         </CardContent>
       </Collapse>
     </Card>
+    <br />
+    <br />
+    <Card className={classes.root}>
+    <CardHeader
+      avatar={
+        <Avatar aria-label="star" className={classes.avatar}>
+          *
+        </Avatar>
+      }
+      action={
+        <IconButton aria-label="settings">
+          <MoreVertIcon />
+        </IconButton>
+      }
+      title="Global Reads"
+      subheader="An application to support the Global Reading Project initiative at UHS Wimbledon"
+    />
+    <CardMedia
+      className={classes.media}
+      image= { require ("./images/cards/about.png")}
+      title="about"
+    />
+    <CardContent>
+      <Typography variant="body2" color="textSecondary" component="p">
+        An application to support the Global Reading initiative at UHS Wimbledon. Read more about the books. Sign up for an account and write your own reviews
+      </Typography>
+      <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="">Global Reads</a></Typography>
+      <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Global-Reads">Global Reads on GitHub</a></Typography>
+
+    </CardContent>
+    <CardActions disableSpacing>
+      <IconButton
+        className={clsx(classes.expand, {
+          [classes.expandOpen]: expanded,
+        })}
+        onClick={handleExpandClick}
+        aria-expanded={expanded}
+        aria-label="show more"
+      >
+        <ExpandMoreIcon />
+      </IconButton>
+    </CardActions>
+    <Collapse in={expanded} timeout="auto" unmountOnExit>
+      <CardContent>
+        <Typography paragraph>Tech Stack</Typography>
+        <Typography paragraph>
+          Rails, Ruby, RSpec, Capybara, CSS
+        </Typography>
+        <Typography paragraph>
+          Motivation: I wanted to learn more about Rails having spent weeks eight and nine of the Makers Academy course building
+          a Facebook clone in Rails. I also wanted to create a platform that students at UHS Wimbledon could use to learn more about
+          the books that have been added to the library since the Global Reading Project was launched.
+        </Typography>
+        <CardMedia
+      className={classes.media}
+      image= { require ("./images/cards/caribbeanreads.png")}
+      title="carribean"
+    />
+      </CardContent>
+    </Collapse>
+  </Card>
+  <br />
+  <br />
+  <br />
+  <br />
+  <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Find Places"
+        subheader="An application to share interesting places with others!"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/cat2.jpg")}
+        title="placeholder"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+          An application that allows users to sign up and share interesting places that they'd visited.
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="">Find Places</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Find-Places">Find Places on GitHub</a></Typography>
+
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            React, Node.js, MongoDB, CSS, Express
+          </Typography>
+          <Typography paragraph>
+            Motivation: I wanted to reinforce what I had learned with Express and React. I also by this point only had
+            experience of using relational databases, so I wanted to use a non-relational database in an application
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/cat.jpg")}
+        title="cat"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Pristine Pics"
+        subheader="An application to upload and showcase your favourite pics"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/beach.png")}
+        title="placeholder"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+          A React application to show off your favourite photographs.
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="https://guiltless-clouds.surge.sh/">Pristine Pics</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Pristine-Pics">Pristine Pics on GitHub</a></Typography>
+
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            React, CSS
+          </Typography>
+          <Typography paragraph>
+            Motivation: In the early days of learning React, I wanted to put that learning into practice so I created Pristine Pics.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/pristinepics_uploadphoto.png")}
+        title="pristinepics"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="star" className={classes.avatar}>
+            *
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Finbot/Ubb"
+        subheader="A chatbot to advise young people on matters of personal finance"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/ubb.png")}
+        title="ubb"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+          A chat bot designed with young people in mind to advise them on matters of personal finance.
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="">Ubb</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/nikimanoledaki/finbot">Ubb on GitHub (UI) </a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/nikimanoledaki/finbot-api">Ubb on GitHub API </a></Typography>
+
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            Python, Django, React, NLTK, TensorFlow, TFLearn, UnitTest, Cypress
+          </Typography>
+          <Typography paragraph>
+            Motivation: The idea for Ubb grew out of a conversation that two of my team mates had. One had worked for many years in finance. The others
+            was a (relatively) recent university graduate. 
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/ubb2.png")}
+        title="ubb2"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+  </>
   );
+  
 }
