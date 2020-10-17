@@ -7,37 +7,36 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
-import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import { pink } from '@material-ui/core/colors';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 805,
+    maxWidth: 1000,
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    width: '50%',
   },
   media: {
     height: 0,
     paddingTop: '56.25%', 
+    paddingLeft: '30px',
   },
   expand: {
     transform: 'rotate(0deg)',
-    marginLeft: 'auto',
+    marginRight: '30px',
     transition: theme.transitions.create('transform', {
       duration: theme.transitions.duration.shortest,
     }),
   },
   expandOpen: {
     transform: 'rotate(180deg)',
-  },
-  avatar: {
-    backgroundColor: pink[500],
-  },
+  }
 }));
 
-export default function RecipeReviewCard() {
+export default function CardProject() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -49,16 +48,6 @@ export default function RecipeReviewCard() {
     <>
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Alohomora 2.0"
         subheader="An application for Harry Potter fans"
       />
@@ -109,16 +98,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
     <CardHeader
-      avatar={
-        <Avatar aria-label="star" className={classes.avatar}>
-          *
-        </Avatar>
-      }
-      action={
-        <IconButton aria-label="settings">
-          <MoreVertIcon />
-        </IconButton>
-      }
       title="Global Reads"
       subheader="An application to support the Global Reading Project initiative at UHS Wimbledon"
     />
@@ -172,16 +151,6 @@ export default function RecipeReviewCard() {
   <br />
   <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Find Places"
         subheader="An application to share interesting places with others!"
       />
@@ -234,16 +203,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Pristine Pics"
         subheader="An application to upload and showcase your favourite pics"
       />
@@ -295,16 +254,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Finbot/Ubb"
         subheader="A chatbot to advise young people on matters of personal finance. Created during the last two weeks of the Makers Academy Course"
       />
@@ -358,16 +307,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="AceBook"
         subheader="A clone of Facebook (Group project)"
       />
@@ -419,16 +358,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Chitter"
         subheader="A clone of Twitter (A weekend challenge)"
       />
@@ -480,16 +409,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Chitter"
         subheader="Rock Paper Scissors"
       />
@@ -542,16 +461,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Head in the Clouds"
         subheader="Let's Mediate!"
       />
@@ -603,16 +512,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Times Tables"
         subheader="Learn your Times Tables with Barbie"
       />
@@ -665,16 +564,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Guardian News"
         subheader="Read the latest news stories from the Guardian newspaper"
       />
@@ -727,16 +616,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Guess the Shade"
         subheader="A game created using vanilla JavaScript"
       />
@@ -787,16 +666,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Presents Planner"
         subheader="Plan what gifts you want to give your friends and loved ones with Presents Planner"
       />
@@ -847,16 +716,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Bucket List"
         subheader="Visualize your goals with Bucket List"
       />
@@ -907,16 +766,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Bookmarks"
         subheader="Save your favourite/most-used webpages with this bookmark manager"
       />
@@ -968,16 +817,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Find A Movie"
         subheader="Find all films with a particular word in its title"
       />
@@ -1029,16 +868,6 @@ export default function RecipeReviewCard() {
     <br />
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Personal Website"
         subheader="About Me"
       />
@@ -1085,16 +914,6 @@ export default function RecipeReviewCard() {
     </Card>
     <Card className={classes.root}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="star" className={classes.avatar}>
-            *
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Vegan Ventures - Coming Soon"
         subheader="A React application to showcase my sister's amazing vegan dishes"
       />

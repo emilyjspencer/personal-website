@@ -1,10 +1,11 @@
 .body {
-    background-color: rgb(187, 182, 187);
+    background-color: rgb(255, 255, 255);
 }
 
 #emily {
     width: 600px;
     height: 590px;
+    border: white solid 2px;
 }
 
 .container-all {
@@ -15,13 +16,11 @@
     transition: transform ease-out 250ms, -webkit-transform ease-out 250ms; }
 
     .welcome {
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
+      
+        height: 100px;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
-        display: flex;
         -webkit-box-align: center;
         -webkit-align-items: center;
         -ms-flex-align: center;
@@ -34,7 +33,7 @@
         .welcome h1 {
           font-size: 1.5rem;
           font-weight: 400;
-          color: #223843;
+          color: #ebbbec;
           line-height: 2;
           text-align: center; }
           @media (min-width: 50em) {
@@ -64,55 +63,6 @@
             margin: 2em auto 0; }
 
 
-            .about-me {
-                width: 90%;
-                margin: 0 auto;
-                max-width: 50em;
-                margin-top: 5em;
-                margin-bottom: 5em; }
-                .about-me::after {
-                  content: '';
-                  display: block;
-                  clear: both; }
+          
               
-              .about-img {
-                max-height: 25em; }
-                @media (min-width: 42em) {
-                  .about-img {
-                    float: left;
-                    margin-right: 1em; } }
               
-              .about-title {
-                margin-bottom: .25em; }
-              
-              .about-subtitle {
-                margin: .5em 0; }
-              
-              @supports (display: grid) {
-                .about-me {
-                  display: grid;
-                  grid-template-columns: [port-start] minmax(6em, 1fr) [name-start] minmax(6em, 1fr) [img-end] 2fr [port-end];
-                  grid-column-gap: .5em; }
-                .about-img {
-                  grid-column: port / img;
-                  grid-row: 1 / 2; }
-                  @media (min-width: 50em) {
-                    .about-img {
-                      grid-row: 1 / 4; } }
-                .about-title {
-                  grid-column: name / port;
-                  grid-row: 1 / 2;
-                  -webkit-align-self: end;
-                  -ms-flex-item-align: end;
-                  align-self: end; }
-                .about-subtitle,
-                .about-text {
-                  grid-column: port / port; }
-                  @media (min-width: 50em) {
-                    .about-subtitle,
-                    .about-text {
-                      grid-column: image-end / port-end; } }
-                .about-subtitle {
-                  grid-row: 2 / 3; }
-                .about-text {
-                  grid-row: 3 / 4; } }
