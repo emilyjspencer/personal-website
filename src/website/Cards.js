@@ -1,19 +1,26 @@
 import React from 'react';
-import { Card, CardContent, Typography, Grid } from '@material-ui/core';
+import { Card, CardContent, Avatar, Typography, Button, Grid, CardMedia, CardActions } from '@material-ui/core';
+import quiz1 from './quiz1.png';
+
+
 
 const Cards = () => {
 
 
     return (
         <Grid container spacing={3} justify="center">
-            <Grid item component={Card} xs={12} md={3} className="Acebook">
-                 <CardContent className="card">
+            <Grid item component={Card} xs={12} md={3} className="Alohomora2.0">
+                 <CardContent className="card" img src={quiz1} >
+                 <CardMedia className="images" image src={quiz1} />
                      <Typography color="textSecondary" gutterBottom>Alohomora 2.0</Typography>
                      <Typography variant="h5"></Typography>
                      <Typography color="textSecondary"></Typography>
                      <Typography variant="body2">An application for Harry Potter fans. Complete with chatroom, quiz, characters and spells pages</Typography>
                      <Typography variant="body2">Try it for yourself: <a href="https://5f88db6e46264f4cec7743c1--thirsty-johnson-2e67ef.netlify.app">Alohomora 2.0 on Netlify</a></Typography>
                      <Typography variant="body2">See the code: <a href="https://github.com/emilyjspencer/Alohomora--2.0">Alohomora 2.0 on GitHub</a></Typography>
+                     <CardActions>
+                     <Button img src={quiz1} href={quiz1} size="small" color="primary">
+                     Potter </Button> </CardActions>
                      </CardContent> 
               </Grid>
               <Grid item component={Card} xs={12} md={3} className="Acebook">
