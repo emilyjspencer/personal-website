@@ -3,7 +3,7 @@ import CardProject from './Cards2';
 
 const Portfolio2 = () => {
     return (
-        <div>
+        <div className="body">
             <br/ >
             <br />
             <h4>Take a look at some of my work!</h4>

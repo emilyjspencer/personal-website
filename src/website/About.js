@@ -8,6 +8,8 @@ const About = () => {
     <div className="body">
       <div className="container-all">
     <div className="welcome" id="home">
+      <br />
+      <br />
     <img id="emily" src={Emily} />
       <h1>Emily<span>Spencer</span></h1>
     <section class="about-me" id="about">
