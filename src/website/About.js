@@ -1,5 +1,8 @@
 import React from 'react';
-import Emily from './me.png';
+
+import Tech from './Tech';
+
+import me2 from './images/cards/me2.png';
 import './About.css';
 
 
@@ -10,7 +13,7 @@ const About = () => {
     <div className="welcome" id="home">
       <br />
       <br />
-    <img id="emily" src={Emily} />
+    <img id="me2" src={me2} />
       <h1>Emily<span>Spencer</span></h1>
     <section class="about-me" id="about">
      <h2 class="about-subtitle">Fullstack Developer and graduate of Makers Academy</h2>
@@ -21,6 +24,7 @@ const About = () => {
       </div>
     </section>
       </div>
+      <Tech />
     </div>
     </div>
   )

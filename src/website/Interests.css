@@ -15,15 +15,44 @@
 
 .node {
     width: 400px;
-    height: 400x;
+    height: 400px;
 }
 
 .java {
     width: 400px;
-    height: 400x;
+    height: 400px;
 }
 
+.outofafrica {
+    width: 300px;
+    height: 300px;
+}
+
+.hideouskinky {
+    width: 400px;
+    height: 400px;
+}
+
+.atmiddleton {
+    width: 400px;
+    height: 400px;
+}
+
+.blackswan {
+    width: 400px;
+    height: 400px;
+}
+
+.atmiddleton {
+    width: 370px;
+    height: 370px
+}
+
+.piano {
+    width: 400px;
+    height: 400px
+}
 
 .body {
-    background-color: rgb(245, 235, 243);
+    background-color: rgb(255, 255, 255);
 }
