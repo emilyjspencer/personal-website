@@ -1,11 +1,15 @@
 import React from 'react';
 
+import Form from './Form';
+import './Form.css';
+
 
 const Contact = () => {
 
   return (
   <div className="contact" id="contact">
       <h1>Contact me</h1>
+      <Form />
       <form action="">
         <label className="name" class="name">Name:
             <input type="text" id="name" />

@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from './Carousel';
 
 import './Interests.css';
 import danceexam from './images/cards/danceexam.png';
@@ -41,6 +42,7 @@ const Interests = () => {
         <br />
         <img className="java" src={java} alt="codebarandroiddevelopment" />
         <h4>Film</h4>
+        <Carousel/>
         <h4>Film images to add to image carousel</h4>
         <img className="outofafrica" src={outofafrica} alt="outofafrica" />
         <img className="hideouskinky" src={hideouskinky} alt="hideouskinky" />
