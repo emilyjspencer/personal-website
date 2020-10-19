@@ -1,0 +1,10 @@
+a {
+
+color: pink;
+}
+
+a:link {
+    color: rgb(215, 140, 224);
+    background-color: transparent;
+    text-decoration: none;
+  }

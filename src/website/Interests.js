@@ -47,9 +47,7 @@ const Interests = () => {
         </div>
         <h4>Languages and travel</h4>
         <div className="pink3" >
-        <img className="travel" src={travel} alt="germanyregion" />
-        </div>
-        <div className="pink4" >
+
         <CarouselTravel />
         </div>
         <div className="pink6">

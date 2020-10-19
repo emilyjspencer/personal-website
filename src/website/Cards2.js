@@ -11,15 +11,19 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
+import './Cards2.css';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 1000,
     marginLeft: 'auto',
     marginRight: 'auto',
+    color: 'gray',
     width: '50%',
     display: 'flex',
-    flexDirection: 'column',
+    flexDirection: 'column'
+    
   },
   media: {
     height: 0,
@@ -34,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
     }),
   },
   expandOpen: {
-    transform: 'rotate(180deg)',
+    transform: 'rotate(90deg)',
   }
 }));
 
@@ -58,6 +62,7 @@ export default function CardProject() {
   const [expanded15, setExpanded15] = React.useState(false);
   const [expanded16, setExpanded16] = React.useState(false);
   const [expanded17, setExpanded17] = React.useState(false);
+  const [expanded18, setExpanded18] = React.useState(false);
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -115,6 +120,9 @@ export default function CardProject() {
     setExpanded17(!expanded17);
   };
 
+  const handleExpandClick18 = () => {
+    setExpanded18(!expanded18);
+  };
 
   return (
     <>
@@ -363,7 +371,7 @@ export default function CardProject() {
           </Typography>
           <Typography paragraph>
             Motivation: The idea for Ubb grew out of a conversation that two of my team mates had. One had worked for many years in finance. The other
-            was a (relatively) recent university graduate. 
+            was a (relatively) recent university graduate with an interest in machine learning. 
           </Typography>
           <CardMedia
         className={classes.media}
@@ -551,16 +559,16 @@ export default function CardProject() {
       <CardActions disableSpacing>
         <IconButton
           className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded9,
+            [classes.expandOpen]: expanded18,
           })}
-          onClick={handleExpandClick9}
-          aria-expanded={expanded9}
+          onClick={handleExpandClick18}
+          aria-expanded={expanded18}
           aria-label="show more"
         >
           <ExpandMoreIcon />
         </IconButton>
       </CardActions>
-      <Collapse in={expanded9} timeout="auto" unmountOnExit>
+      <Collapse in={expanded18} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography paragraph>Tech Stack</Typography>
           <Typography paragraph>
