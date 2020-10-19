@@ -12,6 +12,8 @@ import amsterdam from './images/cards/amsterdam.png';
 import berlin from './images/cards/berlin.png';
 import neuschwanstein3 from './images/cards/neuschwanstein.png';
 import eiffel from './images/cards/eiffel.png';
+import artnouveau from './images/cards/artnouveau.png';
+import baudelaire from './images/cards/baudelaire.png';
 
 
 export default class extends React.Component {
@@ -20,7 +22,6 @@ export default class extends React.Component {
       <Carousel slideWidth="360px">
            <img className="mozart" src={mozart}/>
            <img className="neuschwanstein" src={neuschwanstein3}/>
-        <img className="brecht" src={brecht}/>
         <img className="berlin" src={berlin} />
         <img className="eiffel" src={eiffel} />
         <br />
@@ -31,6 +32,8 @@ export default class extends React.Component {
         <img className="alpine" src={alpine}/>
         <br />
         <img className="disney" src={disney}/>
+        <img className="artnouveau" src={artnouveau}/>
+        <img className="baudelaire" src={baudelaire}/>
        
         
        
