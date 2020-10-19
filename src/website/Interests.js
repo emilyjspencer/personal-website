@@ -2,7 +2,6 @@ import React from 'react';
 import Carousel from './Carousel';
 import CarouselTravel from './CarouselTravel';
 
-
 import './Interests.css';
 import danceexam from './images/cards/danceexam.png';
 import travel from './images/cards/travel.png';
@@ -12,6 +11,8 @@ import java from './images/cards/java.png';
 import piano from './images/cards/piano.png';
 import hollybourne from './images/cards/hollybourne.png';
 import physical from './images/cards/physical.png';
+import flowers7 from './images/cards/flowers7.png';
+import flowers7grey from './images/cards/flowers7grey.png';
 
 
 const Interests = () => {
@@ -19,6 +20,11 @@ const Interests = () => {
     return (
         <>
         <div className="pink">
+        <div className="divider" >
+            <img className="flowers7" src={flowers7grey} ></img>
+            <img className="flowers7" src={flowers7grey} ></img>
+            <img className="flowers7" src={flowers7grey} ></img>
+        </div>
         <h1>Interests</h1>
         <h4>The Performing Arts</h4>
         <p>Having grown up taking ballet, tap, modern dance, piano, violin and speech & drama lessons, I have

@@ -116,9 +116,6 @@ export default function CardProject() {
   };
 
 
-
-
-
   return (
     <>
     <Card className={classes.root}>
@@ -484,6 +481,108 @@ export default function CardProject() {
     <br />
     <Card className={classes.root}>
       <CardHeader
+        title="Times Tables"
+        subheader="Learn your Times Tables with Disney Characters"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/timestables1.png")}
+        title="seventimestables"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+         A simple React to help children learn their Times Tables.
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="http://aback-statement.surge.sh/">Times Tables</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Times-Tables">Times Tables on GitHub</a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded9,
+          })}
+          onClick={handleExpandClick9}
+          aria-expanded={expanded9}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded9} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            React, CSS, SASS
+          </Typography>
+          <Typography paragraph>
+            Motivation: In the early days of learning React I wanted to cement by understanding of some of React's fundamentals.
+            Having worked in both primary and secondary education, and with a deep interest in education and child development, I decided
+            to create a very simple application for primary school children.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/timestables2.png" )}
+        title="timestables"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Card className={classes.root}>
+      <CardHeader
+        title="Student Register"
+        subheader="A PERN stack application"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/register.png")}
+        title="student register"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+         A PERN stack application that mimics a register.
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="">Student Register</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Student-Register">Student Register on GitHub</a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded9,
+          })}
+          onClick={handleExpandClick9}
+          aria-expanded={expanded9}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded9} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            React, Express, PostgreSQL, Node.js, CSS
+          </Typography>
+          <Typography paragraph>
+            Motivation: Learn how to build an application using the PERN stack.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/register2.png" )}
+        title="student register"
+      />
+        </CardContent>
+      </Collapse>
+      </Card>
+      <br />
+      <br />
+      <br />
+      <br />
+    <Card className={classes.root}>
+      <CardHeader
         title="Rock Paper Scissors"
         subheader="Play against the computer"
       />
@@ -577,58 +676,6 @@ export default function CardProject() {
         className={classes.media}
         image= { require ("./images/cards/cat4.jpg" )}
         title="cat4"
-      />
-        </CardContent>
-      </Collapse>
-    </Card>
-    <br />
-    <br />
-    <br />
-    <br />
-    <Card className={classes.root}>
-      <CardHeader
-        title="Times Tables"
-        subheader="Learn your Times Tables with Barbie"
-      />
-      <CardMedia
-        className={classes.media}
-        image= { require ("./images/cards/barbietwelve3.png")}
-        title="seventimestables"
-      />
-      <CardContent>
-        <Typography variant="body2" color="textSecondary" component="p">
-         A simple React to help you to learn your Times Tables.
-        </Typography>
-        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="http://useful-cushion.surge.sh/">Times Tables</a></Typography>
-        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Times-Tables">Times Tables on GitHub</a></Typography>
-      </CardContent>
-      <CardActions disableSpacing>
-        <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded9,
-          })}
-          onClick={handleExpandClick9}
-          aria-expanded={expanded9}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton>
-      </CardActions>
-      <Collapse in={expanded9} timeout="auto" unmountOnExit>
-        <CardContent>
-          <Typography paragraph>Tech Stack</Typography>
-          <Typography paragraph>
-            React, CSS, SASS
-          </Typography>
-          <Typography paragraph>
-            Motivation: In the early days of learning React I wanted to cement by understanding of some of React's fundamentals.
-            Having worked in both primary and secondary education, and with a deep interest in education and child development, I decided
-            to create a very simple application for primary school children.
-          </Typography>
-          <CardMedia
-        className={classes.media}
-        image= { require ("./images/cards/barbieseven.png" )}
-        title="timestables"
       />
         </CardContent>
       </Collapse>
@@ -948,7 +995,7 @@ export default function CardProject() {
       />
       <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/cat4.jpg")}
+        image= { require ("./images/cards/personalwebsite.png")}
         title="portfolio"
       />
     <CardContent>
@@ -964,7 +1011,7 @@ export default function CardProject() {
             [classes.expandOpen]: expanded16,
           })}
           onClick={handleExpandClick16}
-          aria-expanded={expanded}
+          aria-expanded={expanded16}
           aria-label="show more"
         >
           <ExpandMoreIcon />
@@ -981,12 +1028,16 @@ export default function CardProject() {
           </Typography>
           <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/cat4.jpg" )}
+        image= { require ("./images/cards/personalwebsite2.png" )}
         title="portfolio"
       />
         </CardContent>
       </Collapse>
     </Card>
+    <br />
+    <br />
+    <br />
+    <br />
     <Card className={classes.root}>
       <CardHeader
         title="Vegan Ventures - Coming Soon"
@@ -1035,5 +1086,5 @@ export default function CardProject() {
     </Card>
   </>
   );
-  
+ 
 }

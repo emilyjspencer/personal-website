@@ -3,10 +3,18 @@ import React from 'react';
 import Form from './Form';
 import './Form.css';
 
+import flowers7grey from './images/cards/flowers7grey.png';
+
 
 const Contact = () => {
 
   return (
+    <>
+    <div className="divider" >
+            <img className="flowers7" src={flowers7grey} ></img>
+            <img className="flowers7" src={flowers7grey} ></img>
+            <img className="flowers7" src={flowers7grey} ></img>
+        </div>
   <div className="contact" id="contact">
       <h1>Contact me</h1>
       <Form />
@@ -27,6 +35,7 @@ const Contact = () => {
 
       </form>
       </div>
+      </>
     )
 
  

@@ -6,6 +6,8 @@ import Tech from './Tech';
 import me2 from './images/cards/me2.png';
 import cherry from './images/cards/cherry2.jpg';
 import branch from './images/cards/branch.png';
+import flowers7 from './images/cards/flowers7.png';
+import flowers7grey from './images/cards/flowers7grey.png';
 import './About.css';
 
 
