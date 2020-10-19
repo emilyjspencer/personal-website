@@ -15,7 +15,7 @@ const About = () => {
     <div className="body">
       <div className="container-all">
         <div className="welcome" id="home">
-          <Animated animationInDuration="4000" animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
+        <Animated animationInDuration="4000" animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
           <div className="container">
            <img className="me2" src={me2} />
           </div>
@@ -25,6 +25,7 @@ const About = () => {
             <h1>Emily<span>Spencer</span></h1>
           </div>
           </Animated>
+          
       <section class="about-me" id="about">
      <h2 class="about-subtitle">Fullstack Developer and graduate of Makers Academy</h2>
      <br />
