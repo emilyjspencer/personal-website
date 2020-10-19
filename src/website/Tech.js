@@ -43,45 +43,49 @@ const Tech = () =>  (
         Ruby
       </p>
     </div>
+    <br />
     <div className="technologiesContainer">
         <img className="rails" src={rails} />
       <p>Rails</p>
     </div>
+    <br />
     <div className="technologiesContainer">
       <FaReact className="react" />
       <p>React</p>
     </div>
-    <div className="technologiesContainer">
-      <FaNode className="node" />
-      <p>Node.js</p>
-    </div>
+    <br />
     <div className="technologiesContainer">
         <DiPython className="python" />
         <p>Python</p>
     </div>
+    <br />
     <div className="technologiesContainer">
         <img className="js" src={js} />
         <p>JavaScript</p>
     </div>
+    <br />
     <div className="technologiesContainer">
       <FaDatabase className="sql" />
       <p>SQL</p>
     </div>
+    <br />
     <div className="technologiesContainer">
       <FaHtml5 className="html" />
       <p>HTML5</p>
     </div>
+    <br />
     <div className="technologiesContainer">
       <FaCss3Alt className="css" />
       <p>CSS3</p>
     </div>
+    <br />
     <div className="technologiesContainer">
       <SiMaterialUi  className="materialui" />
       <p>MaterialUI</p>
     </div>
+    <br />
     <div className="technologiesContainer">
         <img className="ruby" src={ruby} />
-        Ruby
     </div>
     <br />
     <div className="technologiesContainer">
@@ -104,11 +108,6 @@ const Tech = () =>  (
         Jasmine
     </div>
     <br />
-    <div className="technologiesContainer">
-        <img className="react" src={react} />
-        React
-    </div>
-    <br />
     <h4>Testing</h4>
     <div className="technologiesContainer">
     <img className="rspec" src={rspec} />
@@ -120,34 +119,6 @@ const Tech = () =>  (
         PostgreSQL
     </div>
     <br />
-    <div className="technologiesContainer">
-        <img className="jest" src={jest} />
-        Jest
-    </div>
-    <br />
-    <div className="technologiesContainer">
-        <img className="capybara" src={capybara} />
-        Capybara
-    </div>
-    <br />
-    <div className="technologiesContainer">
-        <img className="enzyme" src={enzyme} />
-        Enzyme
-    </div>
-    <br />
-    <div className="technologiesContainer">
-        <img className="mocha" src={mocha} />
-        Mocha
-    </div>
-    <br />
-    <div className="technologiesContainer">
-        <img className="chai" src={chai} />
-        Chai
-    </div>
-    <div className="technologiesContainer">
-        <img className="tdd" src={tdd} />
-        Test-driven development
-    </div>
   </div>
   <br />
   <br />

@@ -1,24 +1,55 @@
 .body {
-    background-color: rgb(241, 199, 231);
+    background-color: rgb(245, 245, 245);
 }
 
-#emily {
-    width: 600px;
-    height: 590px;
-    border: white solid 20px;
+.me2 {
+    width: 620px;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+  margin-right: auto;
+
    
 }
 
-.container-all {
-    -webkit-transition: -webkit-transform ease-out 250ms;
-    transition: -webkit-transform ease-out 250ms;
-    -o-transition: transform ease-out 250ms;
-    transition: transform ease-out 250ms;
-    transition: transform ease-out 250ms, -webkit-transform ease-out 250ms; }
+.Tech {
+  display: flex;
+  flex-direction: column;
+}
+
+p, h2  {
+  color: rgb(63, 59, 63);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.cherry {
+  width: 200px;
+  height: 421px;
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+
+
+.cherry2 {
+  width: 200px;
+  height: 421px;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
 
     .welcome {
-        background-color: rgb(248, 229, 247);
-        height: 100%;
+        background-color: rgb(245, 233, 243);
+        height: 80%;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -32,10 +63,10 @@
         justify-content: center;
         position: relative; }
         .welcome h1 {
-          font-size: 1.5rem;
+          font-size: 1.3rem;
           font-weight: 400;
           color: #ebbbec;
-          line-height: 2;
+          line-height: 0.5;
           text-align: center; }
           @media (min-width: 50em) {
             .welcome h1 {

@@ -16,4 +16,4 @@ A React application to showcase some of my work.
 
 ### Credits:
 
-PNG Tree for the Cherry Blossom border: <a href='https://pngtree.com/so/cherry-blossoms'>cherry-blossoms png from pngtree.com</a>
+PNG Tree for the Cherry Blossom border: <a href='https://pngtree.com/so/cherry-blossoms'>cherry-blossoms png from pngtree.com (free)</a>
