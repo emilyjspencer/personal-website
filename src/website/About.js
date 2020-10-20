@@ -24,16 +24,16 @@ const About = () => {
           </Animated>
          <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
           <div>
-            <h1>Emily<span>Spencer</span></h1>
+            <h1>Full Stack<span>Developer</span></h1>
           </div>
           </Animated>
           
       <section class="about-me" id="about">
-     <h2 class="about-subtitle">Fullstack Developer and graduate of Makers Academy</h2>
+     <h2 class="about-subtitle">Makers Academy Graduate</h2>
      <br />
       <div class="about-text">
-      <p>As a Modern Languages graduate turned developer, I like to think of myself as having swapped the study of human languages for
-      <br />programming languages</p>
+      <p>kndkndjnekjnjnjnekfjwnekfdjnwekjfnkejf
+      <br />kjdlkfnsldkfnlsdkfnlkn</p>
       </div>
     </section>
       </div>

@@ -14,8 +14,8 @@ const Main = () => (
   
   <BrowserRouter>
   <Switch>
-    <Route exact path="/" component={Homepage} />
-    <About exact path="/about" component={About} />
+    <Route exact path="/" component={About} />
+    <Route exact path="/about" component={About} />
     <Portfolio2 exact path="/portfolio" component={Portfolio2} />
     <CV exact path="/cv" component={CV} />
     <Contact exact path="/contact" component={Contact} />

@@ -1,4 +1,8 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { GoMarkGithub } from "react-icons/go";
+
+import './Footer.css';
 
 
 const Footer = () => {
@@ -7,20 +11,17 @@ return (
     <div className="footer">
       {''}
       {''}
-      {''}
-      {''}
-      {''}
-      {''}
-      <p>Where can I be found</p>
-      {''}
-      {''}
-      {''}
-      {''}
-      {''}
-      {''}
-        <div class="social-icons">
-          <img className="social-icon" src="img/github.svg" alt="github"></img>    
-        </div>
+      
+      <a href="https://github.com/emilyjspencer">GitHub</a>
+     
+  
+        <GoMarkGithub className="github">
+        </GoMarkGithub> 
+        <a href="https://github.com/emilyjspencer"></a>
+   
+        <br />
+        <br />
+      
     </div>
 
 )

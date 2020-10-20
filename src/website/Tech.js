@@ -59,6 +59,8 @@ const Tech = () =>  (
         <p>Python</p>
     </div>
     <br />
+    </div>
+    <div className="technologies2">
     <div className="technologiesContainer">
         <img className="js" src={js} />
         <p>JavaScript</p>
@@ -77,8 +79,10 @@ const Tech = () =>  (
     <div className="technologiesContainer">
       <FaCss3Alt className="css" />
       <p>CSS3</p>
+ 
     </div>
     <br />
+    <div className="technologies3">
     <div className="technologiesContainer">
       <SiMaterialUi  className="materialui" />
       <p>MaterialUI</p>
@@ -101,6 +105,7 @@ const Tech = () =>  (
     <div className="node">
         <img className="node2" src={node} />
         Node
+    </div>
     </div>
     <br />
     <div className="technologiesContainer">
