@@ -76,7 +76,42 @@
     margin-right: auto;
 }
 
-.node {
+.node2 {
+    height: 55px;
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sql {
+    height: 55px;
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.html {
+    height: 55px;
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.css {
+    height: 55px;
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.materialui {
+    height: 55px;
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.database {
     height: 55px;
     width: 55px;
     margin-left: auto;
@@ -91,12 +126,6 @@
     color: black;
 }
 
-.node2 {
-    height: 55px;
-    width: 35px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .sinatra {
     height: 55px;
@@ -112,18 +141,30 @@
     width: 55px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
 }
 
-.tdd{
+.tdd {
     height: 55px;
     width: 55px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
 }
 
 .technologies {
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+  
+}
+
+.technologies2 {
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+  
+}
+
+.technologies3 {
     display: flex;
     flex-direction: row;
     padding: 80px;

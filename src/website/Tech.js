@@ -17,6 +17,10 @@ import node from './images/cards/node.png';
 import sinatra from './images/cards/sinatra.png';
 import tdd from './images/cards/tdd.png';
 import js from './images/cards/js.png';
+import database from './images/cards/database.png';
+import html from './images/cards/html.png';
+import css from './images/cards/css.png';
+import materialui from './images/cards/materialui.png';
 
 import {
     DiPython
@@ -24,14 +28,7 @@ import {
 import {
   FaGem,
   FaReact,
-  FaDatabase,
-  FaHtml5,
-  FaCss3Alt,
-  FaNode,
 } from 'react-icons/fa';
-import {
-    SiMaterialUi 
-} from 'react-icons/si';
 
 
 const Tech = () =>  (
@@ -43,91 +40,84 @@ const Tech = () =>  (
         Ruby
       </p>
     </div>
-    <br />
+
     <div className="technologiesContainer">
         <img className="rails" src={rails} />
       <p>Rails</p>
     </div>
-    <br />
+
     <div className="technologiesContainer">
       <FaReact className="react" />
       <p>React</p>
     </div>
-    <br />
+
     <div className="technologiesContainer">
         <DiPython className="python" />
         <p>Python</p>
     </div>
-    <br />
-    </div>
-    <div className="technologies2">
+
     <div className="technologiesContainer">
         <img className="js" src={js} />
         <p>JavaScript</p>
     </div>
-    <br />
+    </div>
+  
+    <div className="technologies2">
     <div className="technologiesContainer">
-      <FaDatabase className="sql" />
+      <img className="sql" src={database} />
       <p>SQL</p>
     </div>
-    <br />
+
     <div className="technologiesContainer">
-      <FaHtml5 className="html" />
+      <img className="html" src={html} />
       <p>HTML5</p>
     </div>
-    <br />
+
     <div className="technologiesContainer">
-      <FaCss3Alt className="css" />
+      <img className="css" src={css} />
       <p>CSS3</p>
- 
     </div>
-    <br />
-    <div className="technologies3">
+
     <div className="technologiesContainer">
-      <SiMaterialUi  className="materialui" />
+      <img className="materialui"  src={materialui} />
       <p>MaterialUI</p>
     </div>
-    <br />
+   
     <div className="technologiesContainer">
-        <img className="ruby" src={ruby} />
-    </div>
-    <br />
-    <div className="technologiesContainer">
-        <img className="python" src={python} />
-        Python
-    </div>
-    <br />
-    <div className="sinatra">
         <img className="sinatra" src={sinatra} />
-        Sinatra
+      <p>Sinatra</p>
     </div>
-    <br />
-    <div className="node">
+    </div>
+    <div className="technologies3">
+
+    <div className="technologiesContainer">
         <img className="node2" src={node} />
-        Node
+        <p>Node</p>
     </div>
-    </div>
-    <br />
+
     <div className="technologiesContainer">
         <img className="jasmine" src={jasmine} />
-        Jasmine
+        <p>Jasmine</p>
     </div>
-    <br />
-    <h4>Testing</h4>
+
     <div className="technologiesContainer">
     <img className="rspec" src={rspec} />
-        RSpec
+        <p>RSpec</p>
     </div>
-    <br />
+
     <div className="technologiesContainer">
         <img className="postgres" src={postgres} />
-        PostgreSQL
+        <p>PostgreSQL</p>
+     
     </div>
-    <br />
-  </div>
-  <br />
-  <br />
-  <br />
+    <div className="technologiesContainer">
+        <img className="tdd" src={tdd} />
+        <p>TDD</p>
+     
+    </div>
+    </div>
+  
+  
   </>
 )
 

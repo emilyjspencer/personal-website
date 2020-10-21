@@ -1,7 +1,9 @@
 import React from 'react';
-import {Animated} from "react-animated-css";
+import { Animated } from "react-animated-css";
 
+import Tech2 from './Tech2';
 import Tech from './Tech';
+import Header from './Header';
 
 import me2 from './images/cards/me2.png';
 import cherry from './images/cards/cherry2.jpg';
@@ -14,6 +16,7 @@ import './About.css';
 const About = () => {
   return (
     <>
+    <Header />
     <div className="body">
       <div className="container-all">
         <div className="welcome" id="home">
@@ -32,8 +35,10 @@ const About = () => {
      <h2 class="about-subtitle">Makers Academy Graduate</h2>
      <br />
       <div class="about-text">
-      <p>kndkndjnekjnjnjnekfjwnekfdjnwekjfnkejf
-      <br />kjdlkfnsldkfnlsdkfnlkn</p>
+     <br />
+     <br />
+     
+
       </div>
     </section>
       </div>

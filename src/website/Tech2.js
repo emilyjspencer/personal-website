@@ -36,7 +36,7 @@ import {
 
 const Tech2 = () =>  {
     return (
-    
+   <> 
 <div className="technologiesContainer">
         <img className="jest" src={jest} />
         Jest
@@ -65,6 +65,7 @@ const Tech2 = () =>  {
         <img className="tdd" src={tdd} />
         Test-driven development
     </div>
+    </>
 
     )
 }

@@ -1,0 +1,83 @@
+.squares {
+    border-radius: 5%;
+    background: linear-gradient(
+      60deg,
+      #82d3d3,
+      #7a316e
+    );
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    animation-name: drop;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+  }
+
+  #square1 {
+    left:5%;
+    animation-timing-function: ease;
+
+  }
+
+  #square2 {
+    left:15%;
+    animation-timing-function: ease;
+
+  }
+
+  #square3 {
+    left:25%;
+    animation-timing-function: ease;
+
+  }
+
+  #square4 {
+    left:35%;
+    animation-timing-function: ease;
+
+  }
+
+  
+  #square5 {
+    left:45%;
+    animation-timing-function: ease;
+
+  }
+
+  #square6 {
+    left:55%;
+    animation-timing-function: ease;
+
+  }
+
+  #square7 {
+    left:65%;
+    animation-timing-function: ease;
+
+  }
+
+  #square8 {
+    left:75%;
+    animation-timing-function: ease;
+
+  }
+
+  #square9{
+    left:85%;
+    animation-timing-function: ease;
+
+  }
+
+  @keyframes drop {
+    0% {
+      top: 0px;
+    }
+    50% {
+        top: 350px;
+        opacity: 50px;
+    }
+    100% {
+      top: 549px;
+    }
+  }

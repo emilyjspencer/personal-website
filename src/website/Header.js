@@ -10,6 +10,7 @@ const Header = () => {
     return (
         <Animated animationInDuration="3000" animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
         <div className="header">
+            <br />
             <img className="cherryblossom" src={flowers8} alt="cherryblossom" />
         </div>
         </Animated> 

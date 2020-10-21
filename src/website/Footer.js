@@ -9,8 +9,10 @@ const Footer = () => {
 
 return (
     <div className="footer">
-      {''}
-      {''}
+      <br />
+        <br />
+        <br />
+        <br />
       
       <a href="https://github.com/emilyjspencer">GitHub</a>
      

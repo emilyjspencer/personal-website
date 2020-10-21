@@ -3,11 +3,13 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
+import './NavBar.css';
+
 
 const NavBar = () => {
   return (
-    <div>
-      <Navbar bg="light" variant="light">
+  
+      <Navbar fixed="top" bg="light" variant="light"  className="nav">
         
         <Navbar.Brand href="">Emily Spencer</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -23,7 +25,8 @@ const NavBar = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </div>
+      
+ 
   )
 }
 
