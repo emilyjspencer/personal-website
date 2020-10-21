@@ -65,6 +65,22 @@ const Tech2 = () =>  {
         <img className="tdd" src={tdd} />
         Test-driven development
     </div>
+    <div className="technologiesContainer">
+        <img className="chai" src={chai} />
+        <p>Chai</p> 
+    </div>
+    <div className="technologiesContainer">
+        <img className="mocha" src={mocha} />
+        <p>Mocha</p>
+    </div>
+    <div className="technologiesContainer">
+        <img className="jest" src={jest} />
+        <p>Jest</p> 
+    </div>
+    <div className="technologiesContainer">
+        <img className="enzyme" src={enzyme} />
+        <p>Enzyme</p>
+    </div>
     </>
 
     )

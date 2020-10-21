@@ -5,28 +5,31 @@
     margin-right: auto;
 }
 
-.jasmine {
+.jasmine2 {
     height: 55px;
     width: 55px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.capybara {
-    height: 55px;
-    width: 55px;
+.capybara2 {
+    height: 75px;
+    width: 75px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
 }
 
-.enzyme {
-    height: 55px;
-    width: 55px;
-    margin-left: auto;
-    margin-right: auto;
+.capybaratext {
+    position: relative;
+    left: 50px;
+    bottom: 10px;
 }
 
-.jest{
+
+.jest {
     height: 55px;
     width: 55px;
     margin-left: auto;
@@ -143,6 +146,57 @@
     margin-right: auto;
 }
 
+.chai {
+    height: 55px;
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mocha {
+    height: 55px;
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 20px;
+}
+
+.mochatext {
+    position: relative;
+    left: 20px;
+}
+
+.jest {
+    height: 55px;
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 20px;
+}
+
+.jesttext {
+    position: relative;
+    left: 20px;
+}
+
+.enzyme2 {
+    height: 85px;
+    width: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+}
+
+.enzymetext {
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+}
+
 .tdd {
     height: 55px;
     width: 55px;
@@ -165,6 +219,13 @@
 }
 
 .technologies3 {
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+  
+}
+
+.technologies4 {
     display: flex;
     flex-direction: row;
     padding: 80px;

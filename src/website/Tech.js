@@ -4,11 +4,11 @@ import './Tech.css';
 import rails from './images/cards/rails.png';
 import jest from './images/cards/jest.png';
 import rspec from './images/cards/rspec.png';
-import enzyme from './images/cards/enzyme.png';
-import jasmine from './images/cards/jasmine.png';
+import enzyme from './images/cards/enzyme2.png';
+import jasmine from './images/cards/jasmine2.png';
 import chai from './images/cards/chai.png';
 import mocha from './images/cards/mocha.png';
-import capybara from './images/cards/capybara.png';
+import capybara from './images/cards/capybara2.png';
 import ruby from './images/cards/ruby.png';
 import react from './images/cards/react2.png';
 import python from './images/cards/python.png';
@@ -96,7 +96,7 @@ const Tech = () =>  (
     </div>
 
     <div className="technologiesContainer">
-        <img className="jasmine" src={jasmine} />
+        <img className="jasmine2" src={jasmine} />
         <p>Jasmine</p>
     </div>
 
@@ -116,6 +116,33 @@ const Tech = () =>  (
      
     </div>
     </div>
+    <div className="technologies4">
+    <div className="technologiesContainer">
+        <img className="chai" src={chai} />
+        <p>Chai</p> 
+    </div>
+
+    <div className="technologiesContainer">
+        <img className="mocha" src={mocha} />
+        <p className="mochatext">Mocha</p>
+    </div>
+
+    <div className="technologiesContainer">
+        <img className="jest" src={jest} />
+        <p className="jesttext">Jest</p> 
+    </div>
+
+    <div className="technologiesContainer">
+        <img className="enzyme2" src={enzyme} />
+        <p className="enzymetext">Enzyme</p>
+    </div>
+    <br />
+    <div className="technologiesContainer">
+        <img className="capybara2" src={capybara} />
+        <p className="capybaratext">Capybara</p>
+    </div>
+    </div>
+ 
   
   
   </>
