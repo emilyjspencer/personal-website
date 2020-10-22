@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 .pink {
     background-color: rgb(236, 232, 233);
 }
 
 .work {
-    font-family: Dancing Script;
+    font-family: Sacramento;
     text-align: center;
     font-size: 50px;
 }
