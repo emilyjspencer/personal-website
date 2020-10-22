@@ -644,7 +644,7 @@ export default function CardProject() {
     <Card className={classes.root}>
       <CardHeader
         title="Head in the Clouds"
-        subheader="Let's Mediate!"
+        subheader="Let's Meditate!"
       />
       <CardMedia
         className={classes.media}
@@ -906,7 +906,7 @@ export default function CardProject() {
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-         A React application built using TDD (test-driven development) with Jest and Enzyme
+        Save your favourite webpages with this full stack application
         </Typography>
         <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="">Bookmarks</a></Typography>
         <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Bookmarks">Bookmarks on GitHub</a></Typography>

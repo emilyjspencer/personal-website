@@ -1,15 +1,12 @@
 import React from 'react';
+import Typical from 'react-typical'
 import { Animated } from "react-animated-css";
 
-import Tech2 from './Tech2';
 import Tech from './Tech';
 import Header from './Header';
 
+
 import me2 from './images/cards/me2.png';
-import cherry from './images/cards/cherry2.jpg';
-import branch from './images/cards/branch.png';
-import flowers7 from './images/cards/flowers7.png';
-import flowers7grey from './images/cards/flowers7grey.png';
 import './About.css';
 
 
@@ -29,16 +26,19 @@ const About = () => {
           <div>
             <h1>Full Stack<span>Developer</span></h1>
           </div>
+          <br />
+          <div className="typical">
+          <Typical loop={Infinity} wrapper="b" steps={['Linguist', 1500, 'Musician', 1500, 'Book-Lover', 1500, 'Problem Solver', 1500, 'Makers Academy Graduate', 1500]}
+          />
+          </div>
           </Animated>
-          
+          <br />
+          <br />
       <section class="about-me" id="about">
-     <h2 class="about-subtitle">Makers Academy Graduate</h2>
      <br />
       <div class="about-text">
      <br />
      <br />
-     
-
       </div>
     </section>
       </div>

@@ -1,5 +1,11 @@
 .body {
     background-color: rgb(245, 245, 245);
+    width: 100%;
+}
+
+.typical {
+  font-size: 60px;
+  color: rgb(218, 149, 231);
 }
 
 .me2 {

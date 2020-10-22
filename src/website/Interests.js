@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from './Carousel';
 import CarouselTravel from './CarouselTravel';
 import Header2 from './Header2';
+import Header from './Header';
 import { Animated } from "react-animated-css";
 
 import './Header2.css';
@@ -27,7 +28,7 @@ const Interests = () => {
     return (
 
         <>
-    <Header2  />
+      <Header />
        <br />
         <br />
         <br />
@@ -49,11 +50,12 @@ const Interests = () => {
             </div>
             </div>
             <hr></hr>
-            <h4>Books</h4>
+            <h3>Books</h3>
             <br />
-            <p>My love of reading is what led me to my previous role. While I'll read almost anything, I particularly
-enjoy autobiographies and personal development books. I have also read a rather large
-            number of young adult fiction books and will always have deep appreciation for children's books</p>
+            <p>My love of reading is what led me to my previous role. While I'll read most things, I'm especially fond of autobiographies and personal development books. 
+             I have also read a lot of young adult fiction and will always have a soft spot for children's books</p>
+             <br />
+             <h3 align="center">My Picks</h3>
         <div className="bookscontainer">
        <br />
        <br />
@@ -79,18 +81,19 @@ enjoy autobiographies and personal development books. I have also read a rather 
         </ul>
         <p><strong>Mixed non-fiction</strong></p>
         <ul>
-            <li><strong>Year of Wonder</strong> - Clemency Burton Hill</li>
+            <li><strong>Year of Wonder</strong> - Clemency Burton-Hill</li>
             <li><strong>Art Nouveau </strong>- Camilla de la Bédoyère</li>
             <li><strong>The Art of Acting </strong>- Stella Adler</li>
             <li><strong>Annie Leibovitz At Work</strong> - Annie Leibovitz</li>
             <li><strong>Spark!</strong> - Dr John R Ratey</li>
+            <li><strong>Parisian Intersections</strong>- Dr Helen Abbott</li>
         </ul>
         <br />
         </div>
         <div className="books2">
             <br />
             <br />
-        <p><strong>Personal development books</strong></p>
+        <p><strong>Personal development</strong></p>
         <ul>
             <li><strong>Presence </strong>- Amy Cuddy</li>
             <li><strong>#Girlboss</strong> - Sophia Amoruso</li>
@@ -115,9 +118,11 @@ enjoy autobiographies and personal development books. I have also read a rather 
         </div>
         <hr></hr>
         <h4>Languages and travel</h4>
+        <br />
         <div className="languages">
-            <p>As a Modern Languages graduate, I've lived in both France and Germany, having spent six months in Vitre, Brittany <br />
-             and five months in Heidelberg, Germany</p>
+          <p>There is something thrilling about being able to understand and communicate in another language and having studied modern languages at university, I've had the opportunity to learn a handful of languages; French, German and Dutch and a little Spanish.</p>
+            <p>Studying languages also gave me the opportunity to live and work abroad; I worked in Brittany, France for six months before moving to Heidelberg to study at Germany's
+            oldest university - the Ruprecht Karls Universitaet Heidelberg. </p>
              <p>Swipe or click 'next' to see some of the other places I've been</p>
         <div className="pink3" >
 
@@ -146,8 +151,9 @@ enjoy autobiographies and personal development books. I have also read a rather 
         <br />
         <hr/>
         <h4>Tech</h4>
+        <br />
         <p>I try to attend tech meetups when I can</p>
-        <p>Below are a few I've attended</p>
+        <p>Below are a few I've been to.</p>
         <div className="tech">
         <img className="node" src={node} alt="nodegirlslondon" />
         <br />
@@ -163,7 +169,7 @@ enjoy autobiographies and personal development books. I have also read a rather 
        
         <h4>Film</h4>
         <div className="film">
-            <p>I'm a huge fan of films. Here are a few of my favourites</p>
+            <p>I'm a huge fan of films and enjoy most genres, but here are a few of my favourites</p>
         <Carousel/>
         </div>
     
